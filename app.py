@@ -74,9 +74,9 @@ if st.button("Generate Training Module", type="primary"):
                 
                 CRITICAL JSON INSTRUCTIONS: 
                 1. Return ONLY valid JSON.
-                2. DO NOT use Python-style triple quotes ("""). You must use standard double quotes (") for all string values.
+                2. DO NOT use Python-style triple quotes. You must use standard double quotes (\") for all string values.
                 3. You MUST properly escape all newlines inside strings using \\n.
-                4. DO NOT wrap the response in ```json or any other markdown formatting.
+                4. DO NOT wrap the response in markdown formatting.
                 
                 SOP Content:
                 {sop_text}
