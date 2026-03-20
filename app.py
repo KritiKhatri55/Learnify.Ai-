@@ -82,6 +82,7 @@ if st.button("Generate Training Module", type="primary"):
                     messages=[{"role": "user", "content": json_prompt}],
                     model="llama-3.1-8b-instant", 
                     temperature=0.3,
+                    response_format={"type": "json_object"},
                 )
                 
                 raw_response = chat_completion.choices[0].message.content
