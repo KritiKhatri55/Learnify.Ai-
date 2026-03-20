@@ -1,5 +1,3 @@
-# Learnify.Ai
-
 # 🚀 Learnify.Ai : SOP to AI Training System
 **Live Demo:** https://learnify-ai-bkoymha2hca3ob7kzzzsnj.streamlit.app/
 
