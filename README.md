@@ -1,6 +1,7 @@
 # 🚀 Learnify.Ai : SOP to AI Training System
 **Live Demo:** https://learnify-ai-bkoymha2hca3ob7kzzzsnj.streamlit.app/
 
+https://github.com/user-attachments/assets/1c3ceda0-7033-4101-9f15-8f6e6e50ae25
 
 ## 📌 Overview
 Learnify.ai is an intelligent, multimodal AI web application designed to instantly transform standard corporate documents (SOPs) into engaging, comprehensive training modules. Built as an assessment project for the AI Automation Intern role at Nutrabay, this tool bridges the gap between static text and interactive employee learning.
