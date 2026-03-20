@@ -65,7 +65,7 @@ if st.button("Generate Training Module", type="primary"):
                 
                 st.write("🧠 AI is analyzing and structuring data...")
                 json_prompt = f"""
-                You are an expert Corporate Trainer at Nutrabay. Analyze the Standard Operating Procedure (SOP) below and return ONLY a valid JSON object with exactly four keys. 
+                You are an expert Corporate Trainer at Nutrabay. Analyze the Standard Operating Procedure (SOP) below and return a valid JSON object with exactly four keys. 
                 
                 Your goal is to create highly detailed, professional, and comprehensive training material. Expand on the concepts so a new employee fully understands both the 'why' and the 'how'.
                 
@@ -74,7 +74,7 @@ if st.button("Generate Training Module", type="primary"):
                 "guide": A highly detailed, extensively formatted markdown string of the step-by-step training content. Use headings (###), bold text for emphasis, and explain each step thoroughly as if teaching a complete beginner. Make this section comprehensive and educational.
                 "quiz": A markdown string of a 5-question multiple choice quiz with an answer key at the bottom.
                 
-                Do NOT wrap the response in ```json ``` markdown. Return ONLY the raw JSON format.
+                CRITICAL INSTRUCTION: You MUST return ONLY a raw JSON object. Your response MUST start exactly with the {{ character and end exactly with the }} character. DO NOT wrap the JSON in ```json or any other markdown blocks. DO NOT add any conversational text before or after the JSON.
                 
                 SOP Content:
                 {sop_text}
